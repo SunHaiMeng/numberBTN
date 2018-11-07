@@ -15,6 +15,7 @@
 		188756D72192CAA000C8C086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188756D62192CAA000C8C086 /* main.m */; };
 		188756E12192CAA000C8C086 /* numberBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188756E02192CAA000C8C086 /* numberBTests.m */; };
 		188756EC2192CAA000C8C086 /* numberBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188756EB2192CAA000C8C086 /* numberBUITests.m */; };
+		188756FB2192CB1800C8C086 /* SHMTestNumBTN.m in Sources */ = {isa = PBXBuildFile; fileRef = 188756F92192CB1800C8C086 /* SHMTestNumBTN.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		188756E72192CAA000C8C086 /* numberBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = numberBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		188756EB2192CAA000C8C086 /* numberBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberBUITests.m; sourceTree = "<group>"; };
 		188756ED2192CAA000C8C086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188756F92192CB1800C8C086 /* SHMTestNumBTN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHMTestNumBTN.m; sourceTree = "<group>"; };
+		188756FA2192CB1800C8C086 /* SHMTestNumBTN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHMTestNumBTN.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		188756C62192CA9E00C8C086 /* numberB */ = {
 			isa = PBXGroup;
 			children = (
+				188756FA2192CB1800C8C086 /* SHMTestNumBTN.h */,
+				188756F92192CB1800C8C086 /* SHMTestNumBTN.m */,
 				188756C72192CA9E00C8C086 /* AppDelegate.h */,
 				188756C82192CA9E00C8C086 /* AppDelegate.m */,
 				188756CA2192CA9E00C8C086 /* ViewController.h */,
@@ -264,6 +269,7 @@
 			files = (
 				188756CC2192CA9E00C8C086 /* ViewController.m in Sources */,
 				188756D72192CAA000C8C086 /* main.m in Sources */,
+				188756FB2192CB1800C8C086 /* SHMTestNumBTN.m in Sources */,
 				188756C92192CA9E00C8C086 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

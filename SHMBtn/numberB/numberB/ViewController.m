@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SHMTestNumBTN.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    SHMTestNumBTN *testBTN = [[SHMTestNumBTN alloc]initWithFrame:CGRectMake(120, 200, 150, 30)];
+    
+    testBTN.countDownButtonBlock = ^{
+        //开始获取验证码
+    };
+    testBTN.second = 30;
+    [self.view addSubview:testBTN];
 }
 
 
